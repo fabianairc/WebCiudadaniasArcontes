@@ -1,0 +1,259 @@
+@media screen and (max-width: 600px) {
+  .Titulo {
+    font-size: 3vh;
+    margin: 3%;
+  }
+  .description {
+    display: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+  width: 100%;
+  padding: 0;
+}
+.logo {
+  width: 5em;
+  margin: 1.2rem;
+  padding-top: 0;
+}
+
+.nav-item {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 2rem;
+  width: 2rem;
+
+  text-align: center;
+  padding-inline-end: 2rem;
+}
+
+.Servicios {
+  width: 100%px;
+  height: auto;
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+.Servicios img {
+  height: 100%;
+  width: 100%;
+}
+
+.Servicios div {
+  position: absolute;
+  top: 5vh;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5em;
+}
+.Titulo1 {
+  margin: 5%;
+  font-size: 5vw;
+  font-weight: bold;
+}
+.description {
+  font-size: 4vh;
+  font-weight: lighter;
+  margin: 3%;
+}
+.Descripcion {
+  margin: auto;
+  margin-top: 0;
+  padding: 5rem;
+}
+
+.Desc-items {
+  display: inline;
+  float: inline-end;
+}
+.Descripcion h1 {
+  text-align: center;
+  justify-content: center;
+  padding-top: 0%;
+  padding-bottom: 1em;
+  height: fit-content;
+  margin-bottom: 0;
+}
+.desc-it1 {
+  text-align: left;
+  justify-content: center;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: fit-content;
+  margin-bottom: 0;
+}
+.Descripcion-list {
+  display: inline-flex;
+  padding: 0.5rem;
+}
+.Descripcion-list ul {
+  width: 40%;
+  margin: auto;
+}
+.Descripcion-list ul li {
+  margin-top: 5%;
+}
+
+.Desc-items h5 {
+  display: inline-block;
+  width: 20rem;
+  margin: 10%;
+  margin-top: 3%;
+  padding-top: 0;
+  justify-content: center;
+}
+.Motivos {
+  margin: auto;
+  padding: 2em;
+}
+.Motivos h2 {
+  margin: auto;
+  text-align: center;
+}
+.Motivos ul {
+  margin: auto;
+  text-align: left;
+  padding: 3em;
+  padding-left: 15%;
+}
+.Motivos ul li {
+  margin: auto;
+
+  padding: 0.25em;
+}
+
+.Motivos a {
+  margin-left: 45%;
+}
+.Requisitos {
+  margin: auto;
+  padding: 2em;
+}
+.Requisitos h2 {
+  margin: auto;
+  text-align: center;
+}
+.Requisitos ul {
+  margin: auto;
+  text-align: left;
+  padding: 3em;
+  padding-left: 15%;
+}
+.Requisitos ul li {
+  margin: auto;
+  padding: 0.25em;
+}
+.Requisitos p {
+  text-align: center;
+}
+
+.quienes-somos {
+  margin: auto;
+  padding: 1em;
+}
+.quienes-somos h2 {
+  margin: auto;
+  text-align: center;
+}
+
+.quienes-somos p {
+  margin: auto;
+  text-align: justify;
+  padding: 3em;
+  padding-left: 15%;
+}
+.form_input {
+  font-size: 1rem;
+  padding: 0.25em;
+}
+
+.form_cta {
+}
+.form_container {
+  width: 100%;
+  display: grid;
+}
+form {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+.form_input--message {
+  resize: 1rem;
+}
+
+#btn-mas {
+  display: none;
+}
+.container {
+  position: fixed;
+  bottom: 20px;
+  margin: auto;
+}
+.redes a,
+.btn-mas label {
+  display: block;
+  text-decoration: none;
+  background: #cc2b2b;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+}
+.redes a:hover {
+  background: #fff;
+  color: #cc2b2b;
+}
+.redes a {
+  margin-bottom: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-mas:checked ~ .redes a {
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+.btn-mas label {
+  cursor: pointer;
+  background: #f44141;
+  font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label {
+  transform: rotate(135deg);
+  font-size: 25px;
+}
+
+.column1 {
+  width: 50%;
+  background-color: #f44141;
+  margin: 2%;
+  padding: 0;
+}
+
+.container-footer {
+  margin: 5%;
+  padding: 5%;
+}
